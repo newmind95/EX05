@@ -46,15 +46,5 @@ public class EX0511 {
             comission += balance * 0.08;
         return comission;
 
-//        // If sales amount is $10.000.01 and above commission rate is 12%.
-//        if (salesAmount >= 1000.01)
-//            comission += (balance = salesAmount - 10000) * 0.12;
-//        // If sales amount is $5.000.01 to $10.000 commission rate is 10%.
-//        if (salesAmount >= 5000.01)
-//            comission += (balance -= balance - 5000) * 0.10;
-//        // If sales amount is $0.01 to $5.000.01 commission rate is 8%
-//        if (salesAmount >= 0.01)
-//            comission += balance * 0.08;
-//        return comission;
     }
 }
