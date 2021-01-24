@@ -1,4 +1,4 @@
-package EX0506;
+package EX0505;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * three numbers and invokes the method to display them in increasing order.
  */
 
-public class Ex0506 {
+public class EX0505 {
 
     /** Main method. */
     public static void main(String[] args) {
@@ -32,16 +32,18 @@ public class Ex0506 {
 
     /** Method to display sorted numbers. */
     public static void displaySortedNumbers(double num1, double num2, double num3) {
-        double temp = 0;           // Initial is 0.
+
+        double temp = 0;      // initial is 0.
         if (num2 < num1 && num2 < num3) {
             temp = num1;
             num1 = num2;
             num2 = temp;
-        } else if (num3 < num1 && num2 > num3) {
+        } else if (num3 < num1 && num3 < num2) {
             temp = num1;
             num1 = num3;
             num3 = temp;
-        } if (num3 < num2) {
+        }
+        if (num3 < num2) {
             temp = num2;
             num2 = num3;
             num3 = temp;
