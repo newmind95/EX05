@@ -2,6 +2,7 @@ package EX0515;
 
 public class Ex0515 {
 
+    /** Main method. */
     public static void main(String[] args) {
         double from = 50000;
         double to = 60000;
@@ -47,6 +48,7 @@ public class Ex0515 {
                             (82250 - 33950) * 0.25 + (171550 - 82250) * 0.28 +
                             (372950 - 171550) * 0.33 + (taxableIncome - 372950) * 0.35;
                 break;
+
             case 1:
                 if (taxableIncome <= 16700)
                     tax = taxableIncome * 0.10;
@@ -67,6 +69,7 @@ public class Ex0515 {
                             (137050 - 67900) * 0.25 + (208850 - 137050) * 0.28 +
                             (372950 - 208850) * 0.33 + (taxableIncome - 372950) * 0.35;
                 break;
+
             case 2:
                 if (taxableIncome <= 8350)
                     tax = taxableIncome * 0.10;
@@ -87,6 +90,7 @@ public class Ex0515 {
                             (68525 - 33950) * 0.25 + (104425 - 68525) * 0.28 +
                             (186475 - 104425) * 0.33 + (taxableIncome - 186476) * 0.35;
                 break;
+
             case 3:
                 if (taxableIncome <= 11950)
                     tax = taxableIncome * 0.10;
